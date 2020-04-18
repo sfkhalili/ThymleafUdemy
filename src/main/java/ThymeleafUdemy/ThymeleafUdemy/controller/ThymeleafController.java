@@ -21,6 +21,8 @@ public class ThymeleafController {
         model.addAttribute("date", new Date());//date is the rabete between ui and server
         return "getTime";
     }
+
+    //http://localhost:9080/getTimeCss
     @GetMapping("/getTimeCss")
     public String getTimeCss(Model model){
 

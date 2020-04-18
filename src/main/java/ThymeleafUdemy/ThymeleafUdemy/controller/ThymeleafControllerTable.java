@@ -24,6 +24,8 @@ private void createEmployee(){
     list.add(e2);
     list.add(e3);
 }
+
+//http://localhost:9080/showtable
     @GetMapping("/showtable")
 public String getTable(Model model){
    createEmployee();
@@ -31,7 +33,7 @@ public String getTable(Model model){
     return "showTable";
 
     }
-
+//http://localhost:9080/showTableBootstrap
     @GetMapping("/showTableBootstrap")
     public String getTableBootstrap(Model model){
         createEmployee();
