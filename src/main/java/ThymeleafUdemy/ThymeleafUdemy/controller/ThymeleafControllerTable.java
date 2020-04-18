@@ -32,6 +32,14 @@ public String getTable(Model model){
 
     }
 
+    @GetMapping("/showTableBootstrap")
+    public String getTableBootstrap(Model model){
+        createEmployee();
+        model.addAttribute("list",list);
+        return "showTableBootstrap";
+
+    }
+
 
 
 
