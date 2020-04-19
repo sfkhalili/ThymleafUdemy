@@ -1,5 +1,6 @@
 package ThymeleafUdemy.ThymeleafUdemy.controller;
 
+import ThymeleafUdemy.ThymeleafUdemy.entity.Student;
 import ThymeleafUdemy.ThymeleafUdemy.model.Employee;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
